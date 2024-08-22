@@ -1,0 +1,60 @@
+body {
+    background-color: azure;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.game-content{
+    position: relative;
+}
+.board-style {
+    border: 1px solid rgb(3, 91, 3);
+    background-color: rgb(2, 64, 2);
+    border-radius: 8px;
+
+}
+
+.message-box {
+    background-color: rgb(225, 192, 114);
+    border-radius: 8px;
+    border: 1px solid saddlebrown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    padding: 10px 25px;
+    width: 250px;
+    display: none;
+}
+.message-box h2{
+    color: rgb(151, 34, 34);
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: 800;
+}
+.message-box h4{
+    background-color: rgb(152, 116, 243);
+    color: rgb(4, 4, 90);
+    white-space: nowrap;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+.message-box h4 span{
+    color: #FFF;
+    white-space: nowrap;
+    font-size: 15px;
+    font-weight: 500;
+}
+.message-box button{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+

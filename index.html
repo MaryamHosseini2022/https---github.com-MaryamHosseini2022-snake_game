@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="game-content ">
+     <canvas class="board-style" id="board"></canvas> 
+
+     <div class=" message-box" id="massage_box">
+        <h2>Game Over</h2>
+        <h4>Total food:
+            <span id="total_food"></span>
+        </h4>
+        <button
+        type="button"
+        class="btn btn-outline-success" id="reload-game">Play again:)</button>
+
+     </div>
+    </section>
+
+     <script src="./js/bootstrap.bundle.min.js"></script>
+     <script src="./js/bootstrap.min.js.map"></script>
+     <script src="./js/snake.js"></script>
+</body>
+</html>
